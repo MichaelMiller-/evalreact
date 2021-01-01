@@ -4,6 +4,7 @@ import React from 'react';
 import Button from './Button.js';
 import Radio from './Radio.js';
 import Countdown from './Countdown.js';
+import SurveyAnswer from "./SurveyAnswer.js";
 
 class SurveyPage extends React.Component {
    constructor(props) {
@@ -28,31 +29,13 @@ class SurveyPage extends React.Component {
             <form onSubmit={this.handleSubmit}>
                <p>{this.props.title}</p>
                {radios}
-               {/* <textarea value={this.state.value} onChange={this.handleChange} /> */}
+               {/* also possible: <textarea value={this.state.value} onChange={this.handleChange} /> */}
             </form>
             <br />
          </div>
       );
    }
 };
-
-function SurveyAnswer(props) {
-   let formated_answer = props.answer;
-   if (props.answer === "")
-      formated_answer = "not submited";
-
-   //! \todo use fontawesome
-   let ico = " - wrong";
-   if (props.answer === props.correct)
-      ico = " - corrent";
-
-   return (
-      <div>
-         <p>{props.title}</p>
-         <p>{formated_answer}{ico}</p>
-      </div>
-   );
-}
 
 class Survey extends React.Component {
    constructor(props) {
