@@ -20,3 +20,6 @@ npm test
 
 ## Deployment
 Run ``npm run build`` to create an optimized build in the build folder.
+
+## Demo
+[http://evalreact.pb-miller.de](http://evalreact.pb-miller.de/)
