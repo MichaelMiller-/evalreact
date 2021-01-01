@@ -22,4 +22,8 @@ npm test
 Run ``npm run build`` to create an optimized build in the build folder.
 
 ## Demo
+Deployed via github action: [Deployment](https://github.com/MichaelMiller-/evalreact/actions?query=workflow:Deployment)
+
+
 [http://evalreact.pb-miller.de](http://evalreact.pb-miller.de/)
+
