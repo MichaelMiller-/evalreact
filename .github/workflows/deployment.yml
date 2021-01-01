@@ -16,7 +16,7 @@ jobs:
 
     - name: Sync
       env:
-        dest: 'web187@server34.configcenter.info:evalreact.pb-miller.de’
+        dest: 'web187@server34.configcenter.info:evalreact.pb-miller.de'
       run: |
         echo "${{secrets.DEPLOY_KEY}}" > deploy_key
         chmod 600 ./deploy_key
