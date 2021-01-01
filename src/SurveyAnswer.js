@@ -13,7 +13,7 @@ export default function SurveyAnswer(props) {
    return (
       <div>
          <p className="SurveyAnswer-title">{props.title}</p>
-         <p><img src={ico} width="32" height="32"></img>{formated_answer}</p>
+         <p><img alt="validation_icon" src={ico} width="32" height="32"></img>{formated_answer}</p>
       </div>
    );
 }
