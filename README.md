@@ -1,13 +1,19 @@
+![Node.js CI](https://github.com/MichaelMiller-/evalreact/workflows/Node.js%20CI/badge.svg)
+
 # evalreact
 Evaluate React.js and Github workflow
 
-![Node.js CI](https://github.com/MichaelMiller-/evalreact/workflows/Node.js%20CI/badge.svg)
+## Getting Started
+Basic example generated as suggested in the React.js [documentation](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
-- Template
-[Create a new React.js app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+```
+git clone https://github.com/MichaelMiller-/evalreact.git
+cd evalreact
+npm install
+npm start
+```
 
-## development
-Live testconsole: 
+Live testconsole
 ```
 npm test
 ```
